@@ -29,10 +29,12 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2.5rem;
 }
 
 nav ul li{
-  margin-right: 24px;
+  margin: 0 .5rem;
 }
 
 nav a{
